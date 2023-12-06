@@ -12,7 +12,7 @@ public class CustomToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 8.0F; // Adjust as needed
+        return 500.0F; // Adjust as needed
     }
 
     @Override
@@ -22,12 +22,12 @@ public class CustomToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 3; // Adjust as needed
+        return 5; // Adjust as needed
     }
 
     @Override
     public int getEnchantability() {
-        return 15; // Adjust as needed
+        return 33; // Adjust as needed
     }
 
     @Override
